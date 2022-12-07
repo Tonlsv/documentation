@@ -1,41 +1,45 @@
-# npm Documentation
+# 👋 Welcome to A Product
 
-[![Publish](https://github.com/npm/documentation/actions/workflows/publish.yml/badge.svg)](https://github.com/npm/documentation/actions/workflows/publish.yml)
+{% hint style="info" %}
+**GitBook tip:** your product docs aren't just a reference of all your features! use them to encourage folks to perform certain actions and discover the value in your product.
+{% endhint %}
 
-This is the documentation for
-[https://docs.npmjs.com/](https://docs.npmjs.com/).
+## Overview
 
-[This repository](https://github.com/npm/documentation) contains the
-content for our documentation site, and the GitHub Actions workflows
-that generate the site itself.
+Here are a couple of example overviews from products with really great docs:
 
-## Quick start
+> Loom is a video messaging tool that helps you get your message across through instantly shareable videos.
+>
+> With Loom, you can record your camera, microphone, and desktop simultaneously. Your video is then instantly available to share through Loom's patented technology.
+>
+> — From the [Loom Docs](https://support.loom.com/hc/en-us/articles/360002158057-What-is-Loom-)
 
-1. `npm install` to download gatsby, our theme, and the dependencies
-2. `npm run develop`: starts the test server at `http://localhost:8000`.
-3. Update the content - it's Mdx, which is like markdown - in the `content`
-   directory.
-4. Review your content at `http://localhost:8000`.  (Gatsby watches the
-   filesystem and will reload your content changes immediately.)
-5. Once you're happy, commit it and open a pull request at
-   https://github.com/npm/documentation.
-6. A CI workflow run will publish your PR to a GitHub Preview Page.
-7. Once the content is reviewed, merge the pull request.  That will
-   [deploy the site](https://github.com/npm/documentation/actions/workflows/publish.yml).
+> The Mailchimp Marketing API provides programmatic access to Mailchimp data and functionality, allowing developers to build custom features to do things like sync email activity and campaign analytics with their database, manage audiences and campaigns, and more.
+>
+> — From the [Mailchimp Marketing API docs](https://mailchimp.com/developer/marketing/docs/fundamentals/)
 
-Do you want to know more? Check out our [contributing guide](CONTRIBUTING.md).
+## Quick links
 
-## Theme
+{% content-ref url="overview/what-we-do.md" %}
+[what-we-do.md](overview/what-we-do.md)
+{% endcontent-ref %}
 
-The gatsby theme used here is "[doctornpm](https://github.com/npm/doctornpm)" - a variation of
-[doctocat](https://github.com/primer/doctocat) with some theme changes
-for npm's design language and additional components to support multiple
-versions of the CLI documentation.
+{% content-ref url="overview/our-features.md" %}
+[our-features.md](overview/our-features.md)
+{% endcontent-ref %}
 
-## License
+## Get Started
 
-The npm product documentation in the content, and static folders are licensed under a [CC-BY 4.0 license](LICENSE).
+We've put together some helpful guides for you to get setup with our product quickly and easily.
 
-All other code in this repository is licensed under a [MIT license](LICENSE-CODE).
+{% content-ref url="fundamentals/getting-set-up/" %}
+[getting-set-up](fundamentals/getting-set-up/)
+{% endcontent-ref %}
 
-When using the GitHub logos, be sure to follow the [GitHub logo guidelines](https://github.com/logos).
+{% content-ref url="fundamentals/getting-set-up/setting-permissions.md" %}
+[setting-permissions.md](fundamentals/getting-set-up/setting-permissions.md)
+{% endcontent-ref %}
+
+{% content-ref url="fundamentals/getting-set-up/inviting-members.md" %}
+[inviting-members.md](fundamentals/getting-set-up/inviting-members.md)
+{% endcontent-ref %}
